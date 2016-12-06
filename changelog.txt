@@ -1,0 +1,26 @@
+Gan of 4 demo 1
+By: Carlos Julio Pérez Quizhpe
+
+	* Maven:
+		+ Generating project:
+		mvn archetype:generate -DgroupId=ec.cjpq.go4demo1 -DartifactId=go4demo1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false	
+		+ Running specific test:
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.FactoryMethod.ShapeFactoryTest
+
+	* Git:
+		+ Quick setup — if you’ve done this kind of thing before:
+		https://github.com/carlosjulioperez/go4demo1.git
+
+		+ …or create a new repository on the command line:
+		echo "# go4demo1" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git remote add origin https://github.com/carlosjulioperez/go4demo1.git
+		git push -u origin master
+
+		+ …or push an existing repository from the command line:
+		git remote add origin https://github.com/carlosjulioperez/go4demo1.git
+		git push -u origin master
+
+
