@@ -2,7 +2,7 @@ package ec.cjpq.go4demo1.creationalPatterns.FactoryMethod;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * Square class
+ * Square concrete class implementing Shape interface
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-05
  */

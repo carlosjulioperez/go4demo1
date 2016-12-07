@@ -2,7 +2,7 @@ package ec.cjpq.go4demo1.creationalPatterns.AbstractFactory;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * Factory Producer/Generator class
+ * FactoryProducer create a Factory generator/producer class to get factories by passing an information such as Shape or Color
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-06
  */ 

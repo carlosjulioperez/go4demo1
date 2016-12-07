@@ -2,7 +2,7 @@ package ec.cjpq.go4demo1.creationalPatterns.Singleton;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * SingleObject class
+ * SingleObject class, create a Singleton class
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-07
  */

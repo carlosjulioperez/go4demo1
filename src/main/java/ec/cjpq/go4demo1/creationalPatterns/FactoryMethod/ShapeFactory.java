@@ -2,7 +2,7 @@ package ec.cjpq.go4demo1.creationalPatterns.FactoryMethod;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * ShapeFactory class
+ * ShapeFactory class to generate objects to concrete class based of given information
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-05
  */

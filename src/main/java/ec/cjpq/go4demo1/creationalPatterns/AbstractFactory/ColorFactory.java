@@ -4,7 +4,7 @@ import ec.cjpq.go4demo1.creationalPatterns.FactoryMethod.Shape;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * Color Factory class
+ * Color Factory class extending AbstractFactory to generate objects of concrete clas bases on given information
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-06
  */

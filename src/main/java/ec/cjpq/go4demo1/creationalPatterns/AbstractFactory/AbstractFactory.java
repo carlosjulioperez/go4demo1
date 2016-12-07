@@ -4,7 +4,7 @@ import ec.cjpq.go4demo1.creationalPatterns.FactoryMethod.Shape;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * Abstract Factory class
+ * Abstract Factory class to get the factories for Color and Shape objects.
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-06
  */

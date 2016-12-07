@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * ShapeFactory Test class
+ * ShapeFactory Test class uses the Factory to get objects of concrete class by passing an information such as type.
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-05
  */

@@ -5,7 +5,7 @@ import ec.cjpq.go4demo1.creationalPatterns.FactoryMethod.Shape;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * FactoryProducer Test class
+ * FactoryProducer Test class uses the FactoryProducer to get AbstractFactory in order to get factories of concrete classes by passing an information such a type.
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-06
  */
