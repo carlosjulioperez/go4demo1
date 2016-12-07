@@ -6,6 +6,9 @@ By: Carlos Julio Pérez Quizhpe
 		mvn archetype:generate -DgroupId=ec.cjpq.go4demo1 -DartifactId=go4demo1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false	
 		+ Running specific test:
 			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.FactoryMethod.ShapeFactoryTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.AbstractFactory.FactoryProducerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Singleton.SingleObjectTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Builder.MealBuilderTest
 
 	* Git:
 		+ Quick setup — if you’ve done this kind of thing before:
@@ -23,4 +26,9 @@ By: Carlos Julio Pérez Quizhpe
 		git remote add origin https://github.com/carlosjulioperez/go4demo1.git
 		git push -u origin master
 
+	* Shell:
+		+ Search and replace string in the current folder:
+			sed -i -- 's/foo/bar/g' *
+			sed -i -- 's/Buider/Builder/g' *
 
+			http://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files
