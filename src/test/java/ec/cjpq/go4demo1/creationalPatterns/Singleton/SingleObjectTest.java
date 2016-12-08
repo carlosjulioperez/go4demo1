@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * SingleObject class get the only object from the Singleton class
+ * SingleObject class get the only object from the Singleton class. This class demonstrate Singleton Pattern.
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-07
  */

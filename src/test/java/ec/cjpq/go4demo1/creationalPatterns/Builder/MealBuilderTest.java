@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 
 /**
  * Gang of Four Design Patterns Demo 1
- * MealBuilder test class uses MealBuilder to demonstrate Builder Pattern
+ * MealBuilder test class uses MealBuilder to demonstrate Builder Pattern.
  * @author carper, carlosjulioperez@gmail.com
  * 2016-12-07
  */
