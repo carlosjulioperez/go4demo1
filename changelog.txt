@@ -9,6 +9,15 @@ By: Carlos Julio Pérez Quizhpe
 			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.AbstractFactory.FactoryProducerTest
 			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Singleton.SingleObjectTest
 			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Builder.MealBuilderTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Prototype.ShapeCacheTest
+			
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Adapter.AudioPlayerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Bridge.CircleTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Composite.EmployeeTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Decorator.RedShapeDecoratorTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Facade.ShapeMakerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Flyweight.ShapeFactoryTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Proxy.ProxyImageTest 
 
 	* Git:
 		+ Quick setup — if you’ve done this kind of thing before:

@@ -23,6 +23,8 @@ public class ShapeCacheTest extends TestCase{
 		Shape clonedShape3 = (Shape)ShapeCache.getShape("3");
 		System.out.println("Shape : " + clonedShape3.getType());
 
+		//0999803297 emergencias de metropolitan
+
 	}
 
 }
