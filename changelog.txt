@@ -5,19 +5,19 @@ By: Carlos Julio Pérez Quizhpe
 		+ Generating project:
 		mvn archetype:generate -DgroupId=ec.cjpq.go4demo1 -DartifactId=go4demo1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false	
 		+ Running specific test:
-			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.FactoryMethod.ShapeFactoryTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.AbstractFactory.FactoryProducerTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Singleton.SingleObjectTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Builder.MealBuilderTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.Prototype.ShapeCacheTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.factorymethod.ShapeFactoryTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.abstractfactory.FactoryProducerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.singleton.SingleObjectTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.builder.MealBuilderTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.creationalPatterns.prototype.ShapeCacheTest
 			
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Adapter.AudioPlayerTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Bridge.CircleTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Composite.EmployeeTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Decorator.RedShapeDecoratorTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Facade.ShapeMakerTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Flyweight.ShapeFactoryTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.Proxy.ProxyImageTest 
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.adapter.AudioPlayerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.bridge.CircleTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.composite.EmployeeTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.decorator.RedShapeDecoratorTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.facade.ShapeMakerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.flyweight.ShapeFactoryTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.proxy.ProxyImageTest 
 
 	* Git:
 		+ Quick setup — if you’ve done this kind of thing before:
@@ -37,7 +37,19 @@ By: Carlos Julio Pérez Quizhpe
 
 	* Shell:
 		+ Search and replace string in the current folder:
-			sed -i -- 's/foo/bar/g' *
-			sed -i -- 's/Buider/Builder/g' *
-
 			http://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files
+
+			+ Non recursive:
+				sed -i -- 's/foo/bar/g' *
+				sed -i -- 's/Buider/Builder/g' *
+
+			+ Recursive:
+				find . -type f -exec sed -i 's/Builder/builder/g' {} +
+structuralPatterns
+
+		* Delete all swp files:]
+			http://superuser.com/questions/480367/whats-the-easiest-way-to-delete-vim-swapfiles-ive-already-recovered-from
+
+			find ./ -type f -name "\.*sw[klmnop]" -delete
+			find ./ -type f -name "\.*swp" -delete
+
