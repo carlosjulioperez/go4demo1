@@ -25,7 +25,7 @@ By: Carlos Julio Pérez Quizhpe
 			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.iterator.NameRepositoryTest
 			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.mediator.UserTest
 			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.memento.OriginatorTest
-			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.observer.SubjectTest 
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.state.ContextTest 
 
 	* Git:
 		+ Quick setup — if you’ve done this kind of thing before:
