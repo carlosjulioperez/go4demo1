@@ -19,6 +19,13 @@ By: Carlos Julio Pérez Quizhpe
 			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.flyweight.ShapeFactoryTest
 			mvn clean test -Dtest=ec.cjpq.go4demo1.structuralPatterns.proxy.ProxyImageTest 
 
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.chainofresponsibility.AbstractLoggerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.command.BrokerTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.interpreter.ExpressionTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.iterator.NameRepositoryTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.mediator.UserTest
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.memento.OriginatorTest
+
 	* Git:
 		+ Quick setup — if you’ve done this kind of thing before:
 		https://github.com/carlosjulioperez/go4demo1.git
