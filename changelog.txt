@@ -27,6 +27,7 @@ By: Carlos Julio Pérez Quizhpe
 			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.memento.OriginatorTest
 			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.state.ContextTest 
 			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.strategy.ContextTest 
+			mvn clean test -Dtest=ec.cjpq.go4demo1.behavioralpatterns.templatemethod.GameTest 
 
 	* Git:
 		+ Quick setup — if you’ve done this kind of thing before:
